@@ -1,0 +1,19 @@
+1) react-select-async-paginate: smart search on the search bar
+
+2) react-accessible-accordion: days forecast
+
+3) COMPONENTS	
+	* Search Component
+	* Current Weather
+	* Forecast
+
+4) APIs
+	GeoAPI: Geo coordinates (latitude, longitude)
+	OpenWeatherAPI: Weather info (uses as input Geo coordinates passed by GeoAPI)
+
+5) API Calls
+	First: Current Weather
+	Second: Weather Forecasts
+	Use Promise.all in order to fetch the both calls
+
+* Calling the handleOnChange -> Passing the Data -> Setting the new value -> Call the onSearchChange, which is passed from the App.js file and this method is calling the handleOnSearchChange method

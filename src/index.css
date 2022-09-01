@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.App {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, cyan , blue);
+  background-repeat: no-repeat;
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 768px;
+  box-shadow: 0 0 8px #9ca3af;
+  border-radius: 5px;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 1rem;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 767px) {
+  .App{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
