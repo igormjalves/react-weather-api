@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Weather App Using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- The App consists of a platform for consulting weather data, also showing weather forecasts every 3 hours (for the same day) and forecasts for the next 5 days. 
+- Responsiveness for large or small devices.  
+- The data were obtained through the API provided by [OpenWeather](https://openweathermap.org/api).
+- In addition to being able to search for a specific location, the App allows the user to search directly for information regarding the location where the user is located.
+
+## Main Resources:
+- Async pagination using [react-select-async-paginate](https://www.npmjs.com/package/react-select-async-paginate).
+- [Icon Scout](https://iconscout.com/): library with icons used in the construction of the page
+- [Google Fonts](https://fonts.google.com/)
+
+### Deploy: https://weather-react-app-forecasts.netlify.app/
+
+![preview img](/preview.png)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install all the dependencies.\
 
 ### `npm start`
 
